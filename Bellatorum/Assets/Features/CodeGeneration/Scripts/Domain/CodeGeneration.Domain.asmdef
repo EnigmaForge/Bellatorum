@@ -1,7 +1,9 @@
 {
-    "name": "CodeGeneration.EditorWindow",
+    "name": "CodeGeneration.Domain",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:4069d3e109c8f294493bbbfbb816024d"
+    ],
     "includePlatforms": [
         "Editor"
     ],
