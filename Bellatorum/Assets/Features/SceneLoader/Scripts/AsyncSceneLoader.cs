@@ -39,7 +39,7 @@ namespace Features.SceneLoader {
             if (asyncOperation == null)
                 return;
 
-            asyncOperation.completed += _ => callback.Invoke();
+            asyncOperation.completed += _ => callback?.Invoke();
         }
 
         private void ResetData() {

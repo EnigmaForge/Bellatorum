@@ -1,0 +1,16 @@
+{
+    "name": "GameLoader.Editor",
+    "rootNamespace": "",
+    "references": ["GUID:97ced7a3bd04dd04586bce7a44731b93","GUID:c035f6d5f17eea241b5780ed0c8ac574"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
