@@ -1,0 +1,7 @@
+{
+  "name": "com.enigmaforge.sceneloader",
+  "displayName": "SceneLoader",
+  "version": "0.1.0",
+  "description": "Scene Loader for Unity",
+  "unity": "2022.3"
+}
