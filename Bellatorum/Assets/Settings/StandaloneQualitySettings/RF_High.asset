@@ -16,9 +16,10 @@ MonoBehaviour:
     debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7,
       type: 3}
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
-  m_UseNativeRenderPass: 0
+  m_RendererFeatures:
+  - {fileID: 2952352970813877980}
+  m_RendererFeatureMap: dc2eee7c62ddf828
+  m_UseNativeRenderPass: 1
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -57,6 +58,24 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_DepthPrimingMode: 0
-  m_CopyDepthMode: 0
+  m_CopyDepthMode: 1
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
+--- !u!114 &2952352970813877980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ea6f18cc626469c8114ae19f8f523dc, type: 3}
+  m_Name: PixelationRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  _renderSettings:
+    <RenderOnScene>k__BackingField: 0
+    <RenderPassEvent>k__BackingField: 550
+  _settings:
+    <ScreenHeight>k__BackingField: 144

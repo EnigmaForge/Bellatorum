@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3471de43d6c48a59da2ff16ef865aa8, type: 3}
   m_Name: LoadGameEditorSettings
   m_EditorClassIdentifier: 
-  StartFromInitialScene: 0
+  StartFromInitialScene: 1
