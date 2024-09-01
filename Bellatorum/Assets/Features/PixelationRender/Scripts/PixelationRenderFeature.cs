@@ -12,7 +12,7 @@ namespace Features.PixelationRender {
 
         public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData) {
             #if UNITY_EDITOR
-            if (!_renderSettings.RenderOnScene && renderingData.cameraData.isSceneViewCamera)
+            if (!_renderSettings.RenderOnScene && (renderingData.cameraData.isSceneViewCamera || renderingData.cameraData.isPreviewCamera))
                 return;
             #endif
             
