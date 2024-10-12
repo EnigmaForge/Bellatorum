@@ -6,6 +6,7 @@ namespace Features.BootstrapModule.GameBootstrap.GlobalInstallers {
     [CreateAssetMenu(fileName = "SO_" + nameof(ProjectContextInstaller) + "_Default", menuName = "Configurations/Installers/GlobalInstallers/" + nameof(ProjectContextInstaller))]
     public class ProjectContextInstaller : ScriptableObjectInstaller {
         public override void InstallBindings() {
+            DataInstaller.Install(Container);
             SceneLoaderInstaller.Install(Container);
         }
     }

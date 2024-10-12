@@ -1,4 +1,4 @@
 {
 	"name": "GlobalInstallers",
-	"references":[ "GUID:0d8beb7f090555447a6cf5ce9e54dbb4", "GUID:95c5c1a30fe49bf4cbf048e5e79b1a6b" ]
+	"references":[ "GUID:0d8beb7f090555447a6cf5ce9e54dbb4", "GUID:95c5c1a30fe49bf4cbf048e5e79b1a6b", "GUID:597ab3193c7c69449ba9e195fe79f815" ]
 }
