@@ -23,6 +23,8 @@ namespace Features.PixelRender {
             (float)RenderSetting.Resolution.x / RenderSetting.Resolution.y;
         public int PixelPerUnit =>
             (int)(RenderSetting.Resolution.y / (RenderSetting.CameraZoom * 2f));
+        public float PixelWorldSize =>
+            2f * RenderSetting.CameraZoom / RenderSetting.Resolution.y;
 
         public event Action<RenderSetting> OnRenderSettingsChanged;
     }
