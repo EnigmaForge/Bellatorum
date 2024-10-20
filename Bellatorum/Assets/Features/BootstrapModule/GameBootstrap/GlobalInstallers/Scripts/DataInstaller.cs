@@ -1,4 +1,5 @@
-using Features.PixelRender;
+using Features.CameraModule;
+using Features.GameCameraModule;
 using Zenject;
 
 namespace Features.BootstrapModule.GameBootstrap.GlobalInstallers {

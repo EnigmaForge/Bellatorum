@@ -1,3 +1,4 @@
+using Features.GameCameraModule.Installers;
 using Features.SceneLoader.Installers;
 using UnityEngine;
 using Zenject;
@@ -8,6 +9,7 @@ namespace Features.BootstrapModule.GameBootstrap.GlobalInstallers {
         public override void InstallBindings() {
             DataInstaller.Install(Container);
             SceneLoaderInstaller.Install(Container);
+            PixelRenderInstaller.Install(Container);
         }
     }
 }
